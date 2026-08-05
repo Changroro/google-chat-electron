@@ -3,13 +3,13 @@
 # Install or update Google Chat Desktop (this fork) on macOS from the latest
 # GitHub release. Re-running this script updates an existing install.
 #
-#   curl -fsSL https://raw.githubusercontent.com/Bae-ChangHyun/google-chat-electron/main/scripts/install-mac.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/Changroro/google-chat-electron/main/scripts/install-mac.sh | bash
 #
 # The build is unsigned, so this strips the quarantine flag and ad-hoc signs the
 # app (required for it to launch, especially on Apple Silicon).
 set -euo pipefail
 
-REPO="Bae-ChangHyun/google-chat-electron"
+REPO="Changroro/google-chat-electron"
 APP="/Applications/google-chat-electron.app"
 
 case "$(uname -m)" in

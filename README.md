@@ -76,10 +76,10 @@ menu), and the Electron main process wires those signals to OS features (tray, b
 
 ### Install / update (Linux, `.deb`)
 
-Install — or update an existing install — from the latest [GitHub release](https://github.com/Bae-ChangHyun/google-chat-electron/releases/latest):
+Install — or update an existing install — from the latest [GitHub release](https://github.com/Changroro/google-chat-electron/releases/latest):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Bae-ChangHyun/google-chat-electron/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Changroro/google-chat-electron/main/scripts/install.sh | bash
 ```
 
 The script downloads the latest release's `.deb` and installs it with `apt` (it will prompt for `sudo`).
@@ -99,7 +99,7 @@ sudo snap remove --purge google-chat-desktop
 ### Install / update (macOS, `.zip`)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Bae-ChangHyun/google-chat-electron/main/scripts/install-mac.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Changroro/google-chat-electron/main/scripts/install-mac.sh | bash
 ```
 
 Picks the right build for your Mac (Apple Silicon / Intel), installs it to `/Applications`, and launches it.
@@ -111,7 +111,7 @@ Re-run to update, or use **Help ▸ Check for Updates** in the app.
 ### Run from source (this fork)
 
 ```bash
-git clone https://github.com/Bae-ChangHyun/google-chat-electron.git
+git clone https://github.com/Changroro/google-chat-electron.git
 cd google-chat-electron
 pnpm install          # or: npm install
 npm start             # builds (tsc + esbuild) and launches Electron

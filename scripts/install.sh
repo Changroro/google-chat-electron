@@ -3,11 +3,11 @@
 # Install or update Google Chat Desktop (this fork) from the latest GitHub release.
 # Re-running this script updates an existing install.
 #
-#   curl -fsSL https://raw.githubusercontent.com/Bae-ChangHyun/google-chat-electron/main/scripts/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/Changroro/google-chat-electron/main/scripts/install.sh | bash
 #
 set -euo pipefail
 
-REPO="Bae-ChangHyun/google-chat-electron"
+REPO="Changroro/google-chat-electron"
 PKG="google-chat-electron"
 
 echo "Querying latest release of ${REPO} …"

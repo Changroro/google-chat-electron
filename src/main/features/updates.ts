@@ -7,7 +7,7 @@ import path from 'path';
 import log from 'electron-log';
 import store from '../config.js';
 
-const REPO = 'Bae-ChangHyun/google-chat-electron';
+const REPO = 'Changroro/google-chat-electron';
 
 // Install a local .deb via PackageKit (pkcon). PackageKit performs the
 // privileged work in its system daemon and shows the native polkit password
