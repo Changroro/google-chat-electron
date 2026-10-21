@@ -16,6 +16,7 @@ type StoreType = {
     downloadDir: string,
     zoomLevel: number,
     toastPosition: string,
+    nicknames: Record<string, string>,
   }
 }
 
@@ -97,6 +98,13 @@ const schema: Store.Schema<StoreType> = {
         type: 'string',
         enum: ['top-right', 'top-left', 'bottom-right', 'bottom-left'],
         default: 'top-right'
+      },
+      nicknames: {
+        type: 'object',
+        additionalProperties: {
+          type: 'string'
+        },
+        default: {}
       },
     },
     default: {}

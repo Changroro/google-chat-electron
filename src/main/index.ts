@@ -13,6 +13,7 @@ import closeToTray from './features/closeToTray.js';
 import setAppMenu from './features/appMenu.js';
 import overrideUserAgent from './features/userAgent.js';
 import keepLogin from './features/keepLogin.js';
+import setupNicknames from './features/nicknames.js';
 import setupOfflineHandlers from './features/inOnline.js';
 import handleNotification from './features/handleNotification.js';
 import setupDownloads from './features/downloads.js';
@@ -34,6 +35,7 @@ if (enforceSingleInstance()) {
     .then(() => {
       overrideUserAgent();
       keepLogin();
+      setupNicknames();
       mainWindow = windowWrapper(chatUrl());
       setupOfflineHandlers(mainWindow);
       setupDownloads(mainWindow);
