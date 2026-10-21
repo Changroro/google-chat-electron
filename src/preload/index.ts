@@ -5,3 +5,4 @@ import './overrideNotifications';
 import './unreadCount';
 import './statusControl';
 import './downloadToast';
+import './nicknames';
